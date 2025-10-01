@@ -1,0 +1,38 @@
+com/sii/java/codingtask/user/NewUserValidator.java
+ com.sii.java.codingtask.user.NewUserValidator
+com/sii/java/codingtask/transfer/Transfer.java
+ com.sii.java.codingtask.transfer.Transfer
+com/sii/java/codingtask/transfer/TransferHistoryRepository.java
+ com.sii.java.codingtask.transfer.TransferHistoryRepository
+com/sii/java/codingtask/transfer/TransferHistoryMapper.java
+ com.sii.java.codingtask.transfer.TransferHistoryMapper
+com/sii/java/codingtask/transfer/TransferService.java
+ com.sii.java.codingtask.transfer.TransferService
+com/sii/java/codingtask/mail/MailService.java
+ com.sii.java.codingtask.mail.MailService
+com/sii/java/codingtask/user/NewUser.java
+ com.sii.java.codingtask.user.NewUser
+ com.sii.java.codingtask.user.NewUser$NewUserBuilder
+com/sii/java/codingtask/transfer/TransferStatus.java
+ com.sii.java.codingtask.transfer.TransferStatus
+com/sii/java/codingtask/user/UserEntity.java
+ com.sii.java.codingtask.user.UserEntity
+ com.sii.java.codingtask.user.UserEntity$UserEntityBuilder
+com/sii/java/codingtask/transfer/TransferHistory.java
+ com.sii.java.codingtask.transfer.TransferHistory
+ com.sii.java.codingtask.transfer.TransferHistory$TransferHistoryBuilder
+com/sii/java/codingtask/transfer/TransferHistoryEntity.java
+ com.sii.java.codingtask.transfer.TransferHistoryEntity
+ com.sii.java.codingtask.transfer.TransferHistoryEntity$TransferHistoryEntityBuilder
+com/sii/java/codingtask/transfer/TransferController.java
+ com.sii.java.codingtask.transfer.TransferController
+com/sii/java/codingtask/mail/Mail.java
+ com.sii.java.codingtask.mail.Mail
+com/sii/java/codingtask/user/UserController.java
+ com.sii.java.codingtask.user.UserController
+com/sii/java/codingtask/user/UserRepository.java
+ com.sii.java.codingtask.user.UserRepository
+com/sii/java/codingtask/Main.java
+ com.sii.java.codingtask.Main
+com/sii/java/codingtask/transfer/TransferValidator.java
+ com.sii.java.codingtask.transfer.TransferValidator

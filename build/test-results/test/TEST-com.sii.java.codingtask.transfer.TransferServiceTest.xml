@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sii.java.codingtask.transfer.TransferServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-01T18:58:46" hostname="polpc10556" time="0.071">
+  <properties/>
+  <testcase name="test1()" classname="com.sii.java.codingtask.transfer.TransferServiceTest" time="0.063"/>
+  <testcase name="test2()" classname="com.sii.java.codingtask.transfer.TransferServiceTest" time="0.004"/>
+  <testcase name="shouldThrownExceptionBecauseOneUserDontExist()" classname="com.sii.java.codingtask.transfer.TransferServiceTest" time="0.002"/>
+  <testcase name="shouldThrowExceptionBecauseTransferAmountIsBiggerThanUserBalance()" classname="com.sii.java.codingtask.transfer.TransferServiceTest" time="0.0"/>
+  <system-out><![CDATA[2025-10-01 20:58:46.940 DEBUG 80811 --- [    Test worker] c.s.j.c.transfer.TransferService         : start transfer
+2025-10-01 20:58:46.941 DEBUG 80811 --- [    Test worker] c.s.j.c.transfer.TransferService         : start transfer with id: null
+2025-10-01 20:58:46.941 DEBUG 80811 --- [    Test worker] c.s.j.c.transfer.TransferService         : end transfer
+2025-10-01 20:58:46.950 DEBUG 80811 --- [    Test worker] c.s.j.c.transfer.TransferService         : start transfer
+2025-10-01 20:58:46.951 DEBUG 80811 --- [    Test worker] c.s.j.c.transfer.TransferService         : start transfer
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

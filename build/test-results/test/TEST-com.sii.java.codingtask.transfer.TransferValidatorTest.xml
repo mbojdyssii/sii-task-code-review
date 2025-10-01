@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sii.java.codingtask.transfer.TransferValidatorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-01T18:58:46" hostname="polpc10556" time="0.003">
+  <properties/>
+  <testcase name="shouldThrowExceptionFromUserIdIsZero()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionTransferUserIsZero()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionFromUserIdIsEqualsToUserId()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionIncorrectFromUserId()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionIncorrectToUserId()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.001"/>
+  <testcase name="shouldThrowExceptionToUserIdIsZero()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionTransferUserIsNegative()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.001"/>
+  <testcase name="shouldNotThrowExceptionTransferIsValid()" classname="com.sii.java.codingtask.transfer.TransferValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

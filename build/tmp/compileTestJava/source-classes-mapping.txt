@@ -1,0 +1,10 @@
+com/sii/java/codingtask/user/NewUserValidatorTest.java
+ com.sii.java.codingtask.user.NewUserValidatorTest
+com/sii/java/codingtask/transfer/TransferServiceTest.java
+ com.sii.java.codingtask.transfer.TransferServiceTest
+com/sii/java/codingtask/user/UserControllerTest.java
+ com.sii.java.codingtask.user.UserControllerTest
+com/sii/java/codingtask/transfer/TransferValidatorTest.java
+ com.sii.java.codingtask.transfer.TransferValidatorTest
+com/sii/java/codingtask/transfer/TransferTest.java
+ com.sii.java.codingtask.transfer.TransferTest
