@@ -11,7 +11,7 @@ import java.util.List;
 @SuppressWarnings("all") // not part of the review
 @Slf4j
 @RestController
-@RequestMapping("users")
+@RequestMapping("user")
 public class UserController {
 
     @Autowired
@@ -22,8 +22,8 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @GetMapping("/{id}")
-    public UserEntity getUser(@PathVariable final Long id) {
+    @GetMapping
+    public UserEntity getUser(@RequestParam final Long id) {
         return userRepository.findById(id).orElse(null);
     }
 
