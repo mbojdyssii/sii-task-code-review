@@ -2,18 +2,20 @@ package com.sii.java.codingtask.user;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@SuppressWarnings("all") // not part of the review
 @Slf4j
-@AllArgsConstructor
 @RestController
 @RequestMapping("users")
 public class UserController {
 
-    private final UserRepository userRepository;
+    @Autowired
+    private UserRepository userRepository;
 
     @GetMapping
     public List<UserEntity> getUsers() {
