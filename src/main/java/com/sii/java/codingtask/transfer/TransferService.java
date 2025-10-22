@@ -14,6 +14,7 @@ import com.sii.java.codingtask.user.UserRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("all")
 @Slf4j
 @Service
 @AllArgsConstructor
@@ -25,9 +26,12 @@ public class TransferService {
     private final MailService mailService;
     private static final TransferHistoryMapper MAPPER = Mappers.getMapper(TransferHistoryMapper.class);
 
+    public Long doTransfer(final Transfer transfer) {
+        return doTransactionalTransfer(transfer);
+    }
 
     @Transactional
-    public Long doTransfer(final Transfer transfer) {
+    private Long doTransactionalTransfer(final Transfer transfer) {
         TransferValidator.validate(transfer);
         log.debug("start transfer");
 
