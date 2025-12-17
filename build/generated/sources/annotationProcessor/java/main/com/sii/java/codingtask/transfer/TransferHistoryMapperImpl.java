@@ -1,12 +1,13 @@
 package com.sii.java.codingtask.transfer;
 
+import com.sii.java.codingtask.transfer.TransferHistory.TransferHistoryBuilder;
 import com.sii.java.codingtask.user.UserEntity;
 import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-10-01T20:51:06+0200",
-    comments = "version: 1.4.1.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-6.8.jar, environment: Java 15.0.10 (Azul Systems, Inc.)"
+    date = "2025-12-17T23:31:40+0100",
+    comments = "version: 1.4.1.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.10.2.jar, environment: Java 21.0.9 (Amazon.com Inc.)"
 )
 public class TransferHistoryMapperImpl implements TransferHistoryMapper {
 
@@ -16,15 +17,15 @@ public class TransferHistoryMapperImpl implements TransferHistoryMapper {
             return null;
         }
 
-        TransferHistory transferHistory = new TransferHistory();
+        TransferHistoryBuilder transferHistory = TransferHistory.builder();
 
-        transferHistory.setUserFromId( entityFromUserId( entity ) );
-        transferHistory.setUserToId( entityToUserId( entity ) );
-        transferHistory.setTransferId( entity.getId() );
-        transferHistory.setAmount( entity.getAmount() );
-        transferHistory.setStatus( entity.getStatus() );
+        transferHistory.userFromId( entityFromUserId( entity ) );
+        transferHistory.userToId( entityToUserId( entity ) );
+        transferHistory.transferId( entity.getId() );
+        transferHistory.amount( entity.getAmount() );
+        transferHistory.status( entity.getStatus() );
 
-        return transferHistory;
+        return transferHistory.build();
     }
 
     private Long entityFromUserId(TransferHistoryEntity transferHistoryEntity) {
